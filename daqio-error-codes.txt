@@ -1,0 +1,27 @@
+Error list
+
+Connection errors (create error from body)
+15000 - Generic error, check connectivity. Likely fix: Check Network configuration, Internet connectivity
+15001 - http 500 - Internal Server error, most likely cause: incorrect data sent or connectivity issues 
+15002 - http 404 error - page or API route not found. Check API route for trailing slashes or typos
+15003 - http 403 - authorization failed. Check User name and password.
+15004 - Connecting to daq.io not successful. Generic failure to connect.
+15005 - Unable to retrieve the logged_in status route. You need to log in again 
+15006 - Error creating Channel Type
+15007 - Error creating a Device
+15008 - Error creating a Device Type
+15009 - Error creating an Event Type
+15010 - Error creating a Tag Type
+15011 - Error getting all Device Types
+15012 - Error getting all Event Types
+15013 - Error getting specific Device Type
+15014 - Error updating Device Type
+15015 - Error firing an Event
+15016 - Error getting Device Events
+15017 - Error downloading a File
+15018 - Error getting all Files
+15019 - Error tying a File to a Device
+15020 - Error uploading a File
+15021 - Error Creating or Updating a Tag
+15022 - Error writing a value
+15023 - Error getting all Channel Types
