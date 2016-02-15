@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+Error descriptions as provided with the daq.io LabVIEW API 1.1
+
+<nifamily familyname="daq.io Error" displayname="daq.io Error">
+</nifamily>
+</nicomment>
+<nierror code="402980">
+Generic error, check connectivity. Likely fix: Check Network configuration, Internet connectivity
+</nierror>
+<nierror code="402981">
+http 500 - Internal Server error, most likely cause: incorrect data sent or connectivity issues
+</nierror>
+<nierror code="402982">
+http 404 error - page or API route not found. Check API route for trailing slashes or typos
+</nierror>
+<nierror code="402983">
+http 403 - authorization failed. Check User name and password.
+</nierror>
+<nierror code="402984">
+Connecting to daq.io not successful. Generic failure to connect.
+</nierror>
+<nierror code="402985">
+Unable to retrieve the logged_in status route. You need to log in again
+</nierror>
+<nierror code="402986">
+Error creating Channel Type. Check Connectivity.
+</nierror>
+<nierror code="402987">
+Error creating a Device. Does a Device Type exist for the device?
+</nierror>
+<nierror code="402988">
+Error creating a Device Type. Check the API route and your user permissions.
+</nierror>
+<nierror code="402989">
+Error creating an Event Type. Check the API route and your user permissions.
+</nierror>
+<nierror code="402990">
+Error creating a Tag Type. Check the API route and your user permissions.
+</nierror>
+<nierror code="402991">
+Error getting all Device Types. Check the API route and existance of Device Types.
+</nierror>
+<nierror code="402992">
+Error getting all Event Types. Check the API route and your user permissions.
+</nierror>
+<nierror code="402993">
+Error getting specific Device Type. Make sure the Device Type exists.
+</nierror>
+<nierror code="402994">
+Error updating Device Type. Check your user permissions and update data.
+</nierror>
+<nierror code="402995">
+Error firing an Event. Make sure the Event Type exists.
+</nierror>
+<nierror code="402996">
+Error getting Device Events. Check the API route.
+</nierror>
+<nierror code="402997">
+Error downloading a File. Please check if the File ID exists.
+</nierror>
+<nierror code="402998">
+Error getting all Files.
+</nierror>
+<nierror code="402999">
+Error tying a File to a Device.
+</nierror>
+<nierror code="403400">
+Error uploading a File.
+</nierror>
+<nierror code="403401">
+Error Creating or Updating a Tag.
+</nierror>
+<nierror code="403402">
+Error writing a value.
+</nierror>
+<nierror code="403403">
+Error getting all Channel Types.
+</nierror>
+<nierror code="403404">
+Error creating a dashboard.
+</nierror>
+<nierror code="403405">
+Error retrieving time series rollups. Make sure data exists for the specified period.
+</nierror>
+<nierror code="403406">
+Error deleting a File on daq.io. Please make sure the file exists and the File ID is correct.
+</nierror>
+</nidocument>
