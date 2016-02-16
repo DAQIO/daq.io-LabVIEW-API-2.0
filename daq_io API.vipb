@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2016-02-15 16:20:31" Creator="Ken" Comments="" ID="f27e012215d40caf9df01f70d44b86c7">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2016-02-15 18:13:47" Creator="Ken" Comments="" ID="66b545820724890adb7a4c3dd18b3d82">
   <Library_General_Settings>
     <Package_File_Name>daq_io_lib_daq_io_LabVIEW_API</Package_File_Name>
-    <Library_Version>1.1.0.2</Library_Version>
+    <Library_Version>1.1.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\daq.io package</Library_Output_Folder>
@@ -476,7 +476,7 @@ Please note: This API is &lt;b&gt;not backwards compatible&lt;/b&gt;. For all  p
         <Path>Advanced Functions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5CA43409A97E149E8B46EB44960C2719</GUID>
+      <GUID>EDB24BF2031D290FEC878ABF8BD1F6F6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -651,7 +651,7 @@ Please note: This API is &lt;b&gt;not backwards compatible&lt;/b&gt;. For all  p
         <Path>Files\daqio_Delete_File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E26B591705B5F5E9AB69A6685F565611</GUID>
+      <GUID>16CB837D89DDF5C9AE69B397B36819B3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -714,7 +714,7 @@ Please note: This API is &lt;b&gt;not backwards compatible&lt;/b&gt;. For all  p
         <Path>Advanced Functions\FGV.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0FD14D0333AE8DFE94617205EAB3F937</GUID>
+      <GUID>C8E262F65634FCF3349303DF7E77BC61</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
