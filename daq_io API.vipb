@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2016-02-15 18:13:47" Creator="Ken" Comments="" ID="66b545820724890adb7a4c3dd18b3d82">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2016-02-16 13:54:22" Creator="Ken" Comments="" ID="78b2e2aaff78e1562104c5c00289f4dd">
   <Library_General_Settings>
     <Package_File_Name>daq_io_lib_daq_io_LabVIEW_API</Package_File_Name>
-    <Library_Version>1.1.0.3</Library_Version>
+    <Library_Version>1.1.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\daq.io package</Library_Output_Folder>
@@ -39,7 +39,7 @@ The daq.io services are free to use for personal use. For professional and large
       <Copyright>Copyright © 2016, daq.io</Copyright>
       <Packager>Peter Adelhardt</Packager>
       <URL>http://www.daq.io</URL>
-      <Release_Notes>- V 1.1
+      <Release_Notes>- V 1.1.0.3
 complete overhaul of the LabVIEW package
 new features:
 - runs on any LabVIEW target that supports http including CompactRIO and SingleBoard RIO
@@ -476,7 +476,7 @@ Please note: This API is &lt;b&gt;not backwards compatible&lt;/b&gt;. For all  p
         <Path>Advanced Functions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EDB24BF2031D290FEC878ABF8BD1F6F6</GUID>
+      <GUID>6959FB9BC7764D792945CD5B466A08D5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -651,7 +651,7 @@ Please note: This API is &lt;b&gt;not backwards compatible&lt;/b&gt;. For all  p
         <Path>Files\daqio_Delete_File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>16CB837D89DDF5C9AE69B397B36819B3</GUID>
+      <GUID>3C5A786748FBE2B5B65C953D904673DF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -714,7 +714,7 @@ Please note: This API is &lt;b&gt;not backwards compatible&lt;/b&gt;. For all  p
         <Path>Advanced Functions\FGV.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8E262F65634FCF3349303DF7E77BC61</GUID>
+      <GUID>C1E2F4DE40FF0E49B35764A1F2CCB291</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
