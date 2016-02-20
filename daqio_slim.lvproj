@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="13008000">
+	<Property Name="varPersistentID:{82D27690-F8D3-45E2-BD33-87A352ECFAB2}" Type="Ref">/My Computer/daqio minimal.lvlib/_subs/RCAtt</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -13,6 +14,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="daqio minimal.lvlib" Type="Library" URL="../daqio minimal.lvlib"/>
 		<Item Name="daq_io API.vipb" Type="Document" URL="../daq_io API.vipb"/>
+		<Item Name="test_waveform_download.vi" Type="VI" URL="../test_waveform_download.vi"/>
+		<Item Name="test buffer stuff.vi" Type="VI" URL="../../test buffer stuff.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>

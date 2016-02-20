@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2016-02-16 13:54:22" Creator="Ken" Comments="" ID="78b2e2aaff78e1562104c5c00289f4dd">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2016-02-17 09:56:34" Creator="Ken" Comments="" ID="3d12d52ce1458c61cd97e8caab103960">
   <Library_General_Settings>
     <Package_File_Name>daq_io_lib_daq_io_LabVIEW_API</Package_File_Name>
-    <Library_Version>1.1.0.5</Library_Version>
+    <Library_Version>1.1.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\daq.io package</Library_Output_Folder>
@@ -16,7 +16,9 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies/>
+    <Package_Dependencies>
+      <Direct_Dependencies>lib_easy_http_client-1.0.0.3</Direct_Dependencies>
+    </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
@@ -39,13 +41,17 @@ The daq.io services are free to use for personal use. For professional and large
       <Copyright>Copyright © 2016, daq.io</Copyright>
       <Packager>Peter Adelhardt</Packager>
       <URL>http://www.daq.io</URL>
-      <Release_Notes>- V 1.1.0.3
+      <Release_Notes>- V 1.1.0.7
 complete overhaul of the LabVIEW package
 new features:
 - runs on any LabVIEW target that supports http including CompactRIO and SingleBoard RIO
 - supports File up- and download
 
-Please note: This API is &lt;b&gt;not backwards compatible&lt;/b&gt;. For all  projects that use the existing daq.io libraries, please replace all daq.io VIs with the new ones. The workflow has been simplified. The LabVIEW API will automatically create all required "types" on daq.io when new devices and new events are generated. </Release_Notes>
+Please note: This API is &lt;b&gt;not backwards compatible&lt;/b&gt;. For all  projects that use the existing daq.io libraries, please replace all daq.io VIs with the new ones. The workflow has been simplified. The LabVIEW API will automatically create all required "types" on daq.io when new devices and new events are generated. 
+
+fixes:
+- included Easy HTTP Lib dependency
+- fixed Event Generation</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -220,6 +226,12 @@ Please note: This API is &lt;b&gt;not backwards compatible&lt;/b&gt;. For all  p
       </Exclusions>
       <Exclusions>
         <Path>Open-daq.io-in-Browser.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>test_waveform_download.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>README.md</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>EULA.txt</License_Agreement_Filepath>
@@ -476,7 +488,7 @@ Please note: This API is &lt;b&gt;not backwards compatible&lt;/b&gt;. For all  p
         <Path>Advanced Functions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6959FB9BC7764D792945CD5B466A08D5</GUID>
+      <GUID>F794DBEDCA39FB8A707FA54F9D1F0919</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -651,7 +663,7 @@ Please note: This API is &lt;b&gt;not backwards compatible&lt;/b&gt;. For all  p
         <Path>Files\daqio_Delete_File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3C5A786748FBE2B5B65C953D904673DF</GUID>
+      <GUID>D3E11F9358EE6A1FFE478D925CA08F07</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -714,7 +726,7 @@ Please note: This API is &lt;b&gt;not backwards compatible&lt;/b&gt;. For all  p
         <Path>Advanced Functions\FGV.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C1E2F4DE40FF0E49B35764A1F2CCB291</GUID>
+      <GUID>432A21A3A73FE78FD7AD752E7D0F8ABA</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

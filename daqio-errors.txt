@@ -87,4 +87,7 @@ Error retrieving time series rollups. Make sure data exists for the specified pe
 <nierror code="403406">
 Error deleting a File on daq.io. Please make sure the file exists and the File ID is correct.
 </nierror>
+<nierror code="403407">
+Error posting a buffer file to daq.io. Please adjust the timeout if your Internet Connection is slow.
+</nierror>
 </nidocument>

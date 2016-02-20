@@ -16,6 +16,16 @@
 		<Item Name="EULA.txt" Type="Document" URL="../EULA.txt"/>
 	</Item>
 	<Item Name="_subs" Type="Folder">
+		<Item Name="daqio-wfm-2-json.vi" Type="VI" URL="../../unused stuff/daqio-wfm-2-json.vi"/>
+		<Item Name="RCAtt" Type="Variable">
+			<Property Name="featurePacks" Type="Str">Global</Property>
+			<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+			<Property Name="Network:UseBinding" Type="Str">False</Property>
+			<Property Name="Network:UseBuffering" Type="Str">False</Property>
+			<Property Name="numTypedefs" Type="UInt">0</Property>
+			<Property Name="type" Type="Str">Global</Property>
+			<Property Name="typeDesc" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!"-!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
+		</Item>
 		<Item Name="sub_autocreate_device_and_type_name.vi" Type="VI" URL="../_subs/sub_autocreate_device_and_type_name.vi"/>
 		<Item Name="sub_base64.vi" Type="VI" URL="../_subs/sub_base64.vi"/>
 		<Item Name="sub_check_and_autocreate_channel.vi" Type="VI" URL="../_subs/sub_check_and_autocreate_channel.vi"/>
@@ -23,19 +33,30 @@
 		<Item Name="sub_check_and_autocreate_tag.vi" Type="VI" URL="../_subs/sub_check_and_autocreate_tag.vi"/>
 		<Item Name="sub_check_connectivity.vi" Type="VI" URL="../_subs/sub_check_connectivity.vi"/>
 		<Item Name="sub_check_logged_in.vi" Type="VI" URL="../_subs/sub_check_logged_in.vi"/>
+		<Item Name="sub_create_buf_file_from_date.vi" Type="VI" URL="../_subs/sub_create_buf_file_from_date.vi"/>
 		<Item Name="sub_create_error_from_body.vi" Type="VI" URL="../_subs/sub_create_error_from_body.vi"/>
 		<Item Name="sub_create_error_from_http_code.vi" Type="VI" URL="../_subs/sub_create_error_from_http_code.vi"/>
 		<Item Name="sub_encode_credentials.vi" Type="VI" URL="../_subs/sub_encode_credentials.vi"/>
+		<Item Name="sub_filter_buffer_files.vi" Type="VI" URL="../_subs/sub_filter_buffer_files.vi"/>
 		<Item Name="sub_make_safe_name.vi" Type="VI" URL="../_subs/sub_make_safe_name.vi"/>
+		<Item Name="sub_reconnect_attempt.vi" Type="VI" URL="../_subs/sub_reconnect_attempt.vi"/>
 		<Item Name="sub_time_to_string.vi" Type="VI" URL="../_subs/sub_time_to_string.vi"/>
+		<Item Name="sub_waveform_to_JSON.vi" Type="VI" URL="../_subs/sub_waveform_to_JSON.vi"/>
+		<Item Name="sub_write_API_route_to_buf_file.vi" Type="VI" URL="../_subs/sub_write_API_route_to_buf_file.vi"/>
 	</Item>
 	<Item Name="_typedefs" Type="Folder">
 		<Item Name="add-file-button.ctl" Type="VI" URL="../_typedefs/add-file-button.ctl"/>
+		<Item Name="connection_FGV_commands.ctl" Type="VI" URL="../_typedefs/connection_FGV_commands.ctl"/>
+		<Item Name="daqio-Buffer-Cluster.ctl" Type="VI" URL="../_typedefs/daqio-Buffer-Cluster.ctl"/>
+		<Item Name="daqio-Buffer-Commands.ctl" Type="VI" URL="../_typedefs/daqio-Buffer-Commands.ctl"/>
+		<Item Name="daqio-Buffer-Parameters.ctl" Type="VI" URL="../_typedefs/daqio-Buffer-Parameters.ctl"/>
+		<Item Name="daqio-Buffer-Types.ctl" Type="VI" URL="../_typedefs/daqio-Buffer-Types.ctl"/>
 		<Item Name="daqio-Channel-Def.ctl" Type="VI" URL="../_typedefs/daqio-Channel-Def.ctl"/>
 		<Item Name="daqio-Channel-Type-POST-return.ctl" Type="VI" URL="../_typedefs/daqio-Channel-Type-POST-return.ctl"/>
 		<Item Name="daqio-Channel-Type.ctl" Type="VI" URL="../_typedefs/daqio-Channel-Type.ctl"/>
 		<Item Name="daqio-Credentials-FGV.ctl" Type="VI" URL="../_typedefs/daqio-Credentials-FGV.ctl"/>
 		<Item Name="daqio-Credentials.ctl" Type="VI" URL="../_typedefs/daqio-Credentials.ctl"/>
+		<Item Name="daqio-daily-rollups-JSON.ctl" Type="VI" URL="../_typedefs/daqio-daily-rollups-JSON.ctl"/>
 		<Item Name="daqio-Device-minimum.ctl" Type="VI" URL="../_typedefs/daqio-Device-minimum.ctl"/>
 		<Item Name="daqio-Device-Specifier.ctl" Type="VI" URL="../_typedefs/daqio-Device-Specifier.ctl"/>
 		<Item Name="daqio-Device-Type-Info-return.ctl" Type="VI" URL="../_typedefs/daqio-Device-Type-Info-return.ctl"/>
@@ -48,6 +69,7 @@
 		<Item Name="daqio-File-Post.ctl" Type="VI" URL="../_typedefs/daqio-File-Post.ctl"/>
 		<Item Name="daqio-File.ctl" Type="VI" URL="../_typedefs/daqio-File.ctl"/>
 		<Item Name="daqio-houly-rollups-JSON.ctl" Type="VI" URL="../_typedefs/daqio-houly-rollups-JSON.ctl"/>
+		<Item Name="daqio-hourly-rollups-JSON.ctl" Type="VI" URL="../_typedefs/daqio-hourly-rollups-JSON.ctl"/>
 		<Item Name="daqio-monthly-rollups-JSON.ctl" Type="VI" URL="../_typedefs/daqio-monthly-rollups-JSON.ctl"/>
 		<Item Name="daqio-Tag-def.ctl" Type="VI" URL="../_typedefs/daqio-Tag-def.ctl"/>
 		<Item Name="daqio-Tag-Type-POST-return.ctl" Type="VI" URL="../_typedefs/daqio-Tag-Type-POST-return.ctl"/>
@@ -68,6 +90,9 @@
 	</Item>
 	<Item Name="Advanced Functions" Type="Folder">
 		<Item Name="daqio_Connect_User.vi" Type="VI" URL="../Advanced Functions/daqio_Connect_User.vi"/>
+		<Item Name="daqio_Connection_FGV.vi" Type="VI" URL="../Advanced Functions/daqio_Connection_FGV.vi"/>
+		<Item Name="daqio_Data_Buffer_FGV.vi" Type="VI" URL="../Advanced Functions/daqio_Data_Buffer_FGV.vi"/>
+		<Item Name="daqio_Re-Connect_Device.vi" Type="VI" URL="../daqio_Re-Connect_Device.vi"/>
 		<Item Name="daqio_Refresh_Local_Device.vi" Type="VI" URL="../Advanced Functions/daqio_Refresh_Local_Device.vi"/>
 		<Item Name="FGV.vi" Type="VI" URL="../Advanced Functions/FGV.vi"/>
 	</Item>
@@ -94,6 +119,7 @@
 			<Item Name="exmpl_File_Upload_Helper.vi" Type="VI" URL="../examples/sub/exmpl_File_Upload_Helper.vi"/>
 		</Item>
 		<Item Name="daq.io Embedded Machine Example.vi" Type="VI" URL="../examples/daq.io Embedded Machine Example.vi"/>
+		<Item Name="daq.io Embedded Machine with Buffering Example.vi" Type="VI" URL="../examples/daq.io Embedded Machine with Buffering Example.vi"/>
 		<Item Name="daq.io File Upload Download Example.vi" Type="VI" URL="../examples/daq.io File Upload Download Example.vi"/>
 		<Item Name="daq.io Get Device Events Example.vi" Type="VI" URL="../examples/daq.io Get Device Events Example.vi"/>
 		<Item Name="daq.io Machine Example.vi" Type="VI" URL="../examples/daq.io Machine Example.vi"/>
@@ -109,9 +135,11 @@
 		<Item Name="daqio_Create_or_Update_Tag.vi" Type="VI" URL="../Tags/daqio_Create_or_Update_Tag.vi"/>
 	</Item>
 	<Item Name="Time Series Data" Type="Folder">
+		<Item Name="daqio_Get_Device_Time_Series_Data.vi" Type="VI" URL="../Time Series Data/daqio_Get_Device_Time_Series_Data.vi"/>
 		<Item Name="daqio_Write_Single.vi" Type="VI" URL="../Time Series Data/daqio_Write_Single.vi"/>
 	</Item>
 	<Item Name="daqio_Close.vi" Type="VI" URL="../daqio_Close.vi"/>
 	<Item Name="daqio_Connect_Device.vi" Type="VI" URL="../daqio_Connect_Device.vi"/>
 	<Item Name="daqio_Switch_to_Device.vi" Type="VI" URL="../daqio_Switch_to_Device.vi"/>
+	<Item Name="exmpl_Append_to_Log.vi" Type="VI" URL="../examples/sub/exmpl_Append_to_Log.vi"/>
 </Library>
