@@ -71,6 +71,7 @@
 		<Item Name="daqio-houly-rollups-JSON.ctl" Type="VI" URL="../_typedefs/daqio-houly-rollups-JSON.ctl"/>
 		<Item Name="daqio-hourly-rollups-JSON.ctl" Type="VI" URL="../_typedefs/daqio-hourly-rollups-JSON.ctl"/>
 		<Item Name="daqio-monthly-rollups-JSON.ctl" Type="VI" URL="../_typedefs/daqio-monthly-rollups-JSON.ctl"/>
+		<Item Name="daqio-reconnect-status.ctl" Type="VI" URL="../_typedefs/daqio-reconnect-status.ctl"/>
 		<Item Name="daqio-Tag-def.ctl" Type="VI" URL="../_typedefs/daqio-Tag-def.ctl"/>
 		<Item Name="daqio-Tag-Type-POST-return.ctl" Type="VI" URL="../_typedefs/daqio-Tag-Type-POST-return.ctl"/>
 		<Item Name="daqio-TimeSeriesEntry.ctl" Type="VI" URL="../_typedefs/daqio-TimeSeriesEntry.ctl"/>
@@ -115,11 +116,11 @@
 	<Item Name="examples" Type="Folder">
 		<Item Name="sub" Type="Folder">
 			<Item Name="daqio_Create_Default_Dashboard.vi" Type="VI" URL="../examples/sub/daqio_Create_Default_Dashboard.vi"/>
+			<Item Name="exmpl_Append_to_Log.vi" Type="VI" URL="../examples/sub/exmpl_Append_to_Log.vi"/>
 			<Item Name="exmpl_Create_Simulated_Value.vi" Type="VI" URL="../examples/sub/exmpl_Create_Simulated_Value.vi"/>
 			<Item Name="exmpl_File_Upload_Helper.vi" Type="VI" URL="../examples/sub/exmpl_File_Upload_Helper.vi"/>
 		</Item>
 		<Item Name="daq.io Embedded Machine Example.vi" Type="VI" URL="../examples/daq.io Embedded Machine Example.vi"/>
-		<Item Name="daq.io Embedded Machine with Buffering Example.vi" Type="VI" URL="../examples/daq.io Embedded Machine with Buffering Example.vi"/>
 		<Item Name="daq.io File Upload Download Example.vi" Type="VI" URL="../examples/daq.io File Upload Download Example.vi"/>
 		<Item Name="daq.io Get Device Events Example.vi" Type="VI" URL="../examples/daq.io Get Device Events Example.vi"/>
 		<Item Name="daq.io Machine Example.vi" Type="VI" URL="../examples/daq.io Machine Example.vi"/>
@@ -141,5 +142,4 @@
 	<Item Name="daqio_Close.vi" Type="VI" URL="../daqio_Close.vi"/>
 	<Item Name="daqio_Connect_Device.vi" Type="VI" URL="../daqio_Connect_Device.vi"/>
 	<Item Name="daqio_Switch_to_Device.vi" Type="VI" URL="../daqio_Switch_to_Device.vi"/>
-	<Item Name="exmpl_Append_to_Log.vi" Type="VI" URL="../examples/sub/exmpl_Append_to_Log.vi"/>
 </Library>

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2016-02-17 09:56:34" Creator="Ken" Comments="" ID="3d12d52ce1458c61cd97e8caab103960">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2016-02-23 16:09:09" Creator="Ken" Comments="" ID="be2b6cfcf4fae69bbb6648b0bc2a4a9c">
   <Library_General_Settings>
     <Package_File_Name>daq_io_lib_daq_io_LabVIEW_API</Package_File_Name>
-    <Library_Version>1.1.0.8</Library_Version>
+    <Library_Version>1.1.1.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\daq.io package</Library_Output_Folder>
@@ -41,17 +41,17 @@ The daq.io services are free to use for personal use. For professional and large
       <Copyright>Copyright © 2016, daq.io</Copyright>
       <Packager>Peter Adelhardt</Packager>
       <URL>http://www.daq.io</URL>
-      <Release_Notes>- V 1.1.0.7
+      <Release_Notes>- V 1.1.1.8
+- added experimental buffering for Time Series and events for any platform (sbRIO / CompactRIO / SOM)
+- improved Events (automatically converting timestamp)
+
+V1.1:
 complete overhaul of the LabVIEW package
 new features:
 - runs on any LabVIEW target that supports http including CompactRIO and SingleBoard RIO
 - supports File up- and download
 
-Please note: This API is &lt;b&gt;not backwards compatible&lt;/b&gt;. For all  projects that use the existing daq.io libraries, please replace all daq.io VIs with the new ones. The workflow has been simplified. The LabVIEW API will automatically create all required "types" on daq.io when new devices and new events are generated. 
-
-fixes:
-- included Easy HTTP Lib dependency
-- fixed Event Generation</Release_Notes>
+Please note: This API is &lt;b&gt;not backwards compatible to V 1.0&lt;/b&gt;. For all  projects that use the old daq.io libraries, please replace all daq.io VIs with the new ones. The workflow has been simplified. The LabVIEW API will automatically create all required "types" on daq.io when new devices and new events are generated. </Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -226,9 +226,6 @@ fixes:
       </Exclusions>
       <Exclusions>
         <Path>Open-daq.io-in-Browser.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>test_waveform_download.vi</Path>
       </Exclusions>
       <Exclusions>
         <Path>README.md</Path>
@@ -488,7 +485,7 @@ fixes:
         <Path>Advanced Functions</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F794DBEDCA39FB8A707FA54F9D1F0919</GUID>
+      <GUID>42105A2A467FCB3FB909C4DACA5AEF24</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -663,7 +660,7 @@ fixes:
         <Path>Files\daqio_Delete_File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D3E11F9358EE6A1FFE478D925CA08F07</GUID>
+      <GUID>8A925AC33CE38358D4F35C83FACBB5D7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -726,7 +723,35 @@ fixes:
         <Path>Advanced Functions\FGV.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>432A21A3A73FE78FD7AD752E7D0F8ABA</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>daq.io FGV</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Advanced Functions\daqio_Connection_FGV.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Data Buffer FGV</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Advanced Functions\daqio_Data_Buffer_FGV.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>955EAFBA0E037570A53219B99CDE485A</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

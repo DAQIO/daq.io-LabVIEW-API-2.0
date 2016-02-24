@@ -14,8 +14,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="daqio minimal.lvlib" Type="Library" URL="../daqio minimal.lvlib"/>
 		<Item Name="daq_io API.vipb" Type="Document" URL="../daq_io API.vipb"/>
-		<Item Name="test_waveform_download.vi" Type="VI" URL="../test_waveform_download.vi"/>
-		<Item Name="test buffer stuff.vi" Type="VI" URL="../../test buffer stuff.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -107,7 +105,7 @@
 		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
-		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">true</Property>
+		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
 		<Property Name="target.RTTarget.VIPath" Type="Path">/c/ni-rt/startup</Property>
 		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -169,11 +167,11 @@ DirectoryIndex index.htm
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{3FB69930-25F4-43C0-96C5-93FDBA6BDAE0}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{88E855C7-DA85-45BD-93E7-EE55DACE5059}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{BFEC0191-7F44-4899-BE4E-DA8C4F4E13D9}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{0F66063A-FE12-40F5-83A0-52AFA27A596F}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{6FFF3928-9D16-4810-B29C-EBF4E267F5DA}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{23AD1334-0909-42CA-B727-636A1FD40FA8}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">My Real-Time Application</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -181,9 +179,9 @@ DirectoryIndex index.htm
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/My Real-Time Application</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{47D0A399-60B2-4959-8C22-3B7E07064F74}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{686DBC12-F088-43C2-9E47-30A56DB042F1}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
@@ -194,7 +192,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/c/ni-rt/startup/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4D6711FA-5390-4A5C-8E1F-9DBCE1E780DE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{66209D28-7625-4FCA-93FA-61AAE6FAF859}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref"></Property>
@@ -202,11 +200,12 @@ DirectoryIndex index.htm
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">daq.io</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">My Real-Time Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">My Real-Time Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 daq.io</Property>
 				<Property Name="TgtF_productName" Type="Str">My Real-Time Application</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{A6315E3B-23F3-4B7D-9C21-10D32CCDDD71}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{F7DDF762-27AC-4AC2-820E-C94D10B81881}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
 			</Item>
 		</Item>
