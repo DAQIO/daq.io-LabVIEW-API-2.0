@@ -73,7 +73,7 @@ Error uploading a File.
 Error Creating or Updating a Tag.
 </nierror>
 <nierror code="403402">
-Error writing a value.
+Error writing one or multiple value(s). Check the Internet connectivity.
 </nierror>
 <nierror code="403403">
 Error getting all Channel Types.
@@ -88,6 +88,12 @@ Error retrieving time series rollups. Make sure data exists for the specified pe
 Error deleting a File on daq.io. Please make sure the file exists and the File ID is correct.
 </nierror>
 <nierror code="403407">
-Error posting a buffer file to daq.io. Please adjust the timeout if your Internet Connection is slow.
+Error posting a buffer file to daq.io. Please adjust the timeout if your Internet Connection is slow or Clear the buffer to delete existing buffer files.
+</nierror>
+<nierror code="403408">
+Error retrieving Waveforms from daq.io. Please make sure Waveforms are enabled and devices exist in your account.
+</nierror>
+<nierror code="403409">
+Error retrieving Waveform data from daq.io. Please make sure the waveforms are stored correctly.
 </nierror>
 </nidocument>
