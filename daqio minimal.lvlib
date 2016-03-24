@@ -67,6 +67,7 @@
 		<Item Name="daqio-Device-Specifier.ctl" Type="VI" URL="../_typedefs/daqio-Device-Specifier.ctl"/>
 		<Item Name="daqio-Device-Type-Info-return.ctl" Type="VI" URL="../_typedefs/daqio-Device-Type-Info-return.ctl"/>
 		<Item Name="daqio-Device.ctl" Type="VI" URL="../_typedefs/daqio-Device.ctl"/>
+		<Item Name="daqio-Device_just_Dashboard_ID.ctl" Type="VI" URL="../_typedefs/daqio-Device_just_Dashboard_ID.ctl"/>
 		<Item Name="daqio-Device_w_Dashboard.ctl" Type="VI" URL="../_typedefs/daqio-Device_w_Dashboard.ctl"/>
 		<Item Name="daqio-Device_w_Dashboard_wo_ID.ctl" Type="VI" URL="../_typedefs/daqio-Device_w_Dashboard_wo_ID.ctl"/>
 		<Item Name="daqio-Event-Def-Min.ctl" Type="VI" URL="../_typedefs/daqio-Event-Def-Min.ctl"/>
@@ -101,9 +102,9 @@
 		<Item Name="daqio_Connect_User.vi" Type="VI" URL="../Advanced Functions/daqio_Connect_User.vi"/>
 		<Item Name="daqio_Connection_FGV.vi" Type="VI" URL="../Advanced Functions/daqio_Connection_FGV.vi"/>
 		<Item Name="daqio_Data_Buffer_FGV.vi" Type="VI" URL="../Advanced Functions/daqio_Data_Buffer_FGV.vi"/>
+		<Item Name="daqio_DevTypes_FGV.vi" Type="VI" URL="../Advanced Functions/daqio_DevTypes_FGV.vi"/>
 		<Item Name="daqio_Re-Connect_Device.vi" Type="VI" URL="../Advanced Functions/daqio_Re-Connect_Device.vi"/>
 		<Item Name="daqio_Refresh_Local_Device.vi" Type="VI" URL="../Advanced Functions/daqio_Refresh_Local_Device.vi"/>
-		<Item Name="FGV.vi" Type="VI" URL="../Advanced Functions/FGV.vi"/>
 	</Item>
 	<Item Name="API Calls" Type="Folder">
 		<Item Name="daqio_Create_Channel_Types.vi" Type="VI" URL="../API Calls/daqio_Create_Channel_Types.vi"/>
@@ -154,5 +155,5 @@
 	</Item>
 	<Item Name="daqio_Close.vi" Type="VI" URL="../daqio_Close.vi"/>
 	<Item Name="daqio_Connect_Device.vi" Type="VI" URL="../daqio_Connect_Device.vi"/>
-	<Item Name="daqio_Switch_to_Device.vi" Type="VI" URL="/&lt;vilib&gt;/daq.io/daq.io LabVIEW API/daqio_Switch_to_Device.vi"/>
+	<Item Name="daqio_Switch_to_Device.vi" Type="VI" URL="../daqio_Switch_to_Device.vi"/>
 </Library>

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2016-03-11 09:56:02" Creator="Ken" Comments="" ID="ef53d037965b9d573ea007236a6941f2">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2016-03-24 16:37:00" Creator="Ken" Comments="" ID="df108c373b2b31c300eba21a42c88b18">
   <Library_General_Settings>
     <Package_File_Name>daq_io_lib_daq_io_LabVIEW_API</Package_File_Name>
-    <Library_Version>1.2.0.1</Library_Version>
+    <Library_Version>1.2.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\daq.io package</Library_Output_Folder>
@@ -30,33 +30,21 @@
     <VI_Package_Configuration_File>daq_io API.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>Cloud data storage and device monitoring</One_Line_Description_Summary>
-      <Description>&lt;b&gt; Note: &lt;/b&gt; VIPM 2014 or greater is required to install this package. 
+      <Description>&lt;b&gt;Note:&lt;/b&gt; VIPM 2014 or greater is required to install this package. 
 
 daq.io is an online data storage platform that can run in the cloud or on local servers. It helps visualize and analyze distributed data sources all in a thin HTML-only web client. The daq.io LabVIEW API is a set of functions to access the data storage platform. It contains commonly required client side features. View the full API documentation on http://daq.io for a complete description of the daq.io API.
 
 The daq.io services are free to use for personal use. For professional and larger scale use, please contact us at info@daq.io.
 
-
-</Description>
+Version History</Description>
       <Copyright>Copyright © 2016, daq.io</Copyright>
       <Packager>Peter Adelhardt</Packager>
       <URL>http://www.daq.io</URL>
-      <Release_Notes>V 1.2.0.0 (Mar-11, 2016)
+      <Release_Notes>V 1.2.0.7 (Mar-24, 2016)
 - added Waveform support in "daq.io Write" 
 - added Waveform generation to the "Machine Example"
 - added Example VI to retrieve Time Series data and Waveforms
-
-- V 1.1.1.11 (Feb-27, 2016)
-- added experimental buffering for Time Series and Events for any platform (sbRIO / CompactRIO / SOM)
-- improved Embedded example including re-connect and buffering
-- improved Events (automatically converting timestamp)
-- fixed getting all Events example
-
-V1.1:
-complete overhaul of the LabVIEW package
-new features:
-- runs on any LabVIEW target that supports http including CompactRIO and SingleBoard RIO
-- supports File up- and download
+- improved re-connect and buffering, added offline mode
 
 Please note: This API is &lt;b&gt;not backwards compatible to V 1.0&lt;/b&gt;. For all  projects that use the old daq.io libraries, please replace all daq.io VIs with the new ones. The workflow has been simplified. The LabVIEW API will automatically create all required "types" on daq.io when new devices and new events are generated. </Release_Notes>
     </Description>
@@ -540,7 +528,7 @@ Please note: This API is &lt;b&gt;not backwards compatible to V 1.0&lt;/b&gt;. F
         <Path>Time Series Data\daqio_Write.vi</Path>
         <VI_Title>daq.io Write</VI_Title>
       </Items_Data>
-      <GUID>769DCAAB577B74EB0503BD2E7F23140D</GUID>
+      <GUID>7BA4AB2C52715D003E9358BE7E3B4417</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -729,7 +717,7 @@ Please note: This API is &lt;b&gt;not backwards compatible to V 1.0&lt;/b&gt;. F
         <Path>_subs\sub_get_list_of_waveforms.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BAD8D99F8301844C802A8788B51E52F5</GUID>
+      <GUID>A151CE507FCECFA1F0C1FD23CEC6F1A6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -781,34 +769,6 @@ Please note: This API is &lt;b&gt;not backwards compatible to V 1.0&lt;/b&gt;. F
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>daq.io FGV</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Advanced Functions\FGV.vi</Path>
-        <VI_Title>daq.io Local Device FGV</VI_Title>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>daq.io Connection FGV</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Advanced Functions\daqio_Connection_FGV.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Data Buffer FGV</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -834,7 +794,35 @@ Please note: This API is &lt;b&gt;not backwards compatible to V 1.0&lt;/b&gt;. F
         <Path>_subs\sub_Filter_Waveforms_by_Channel_and_Time.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5618969E777886F60AB4EB2D102A5717</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>daq.io Connection FGV</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Advanced Functions\daqio_Connection_FGV.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>daq.io FGV</NameSub_Menu_Name>
+        <Short_Name>daq.io Local Device FGV</Short_Name>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>Advanced Functions\daqio_DevTypes_FGV.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>991A1921326EB16CCACCA2B4217C4C55</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
