@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2016-03-24 17:12:04" Creator="Ken" Comments="" ID="fa91f77016c0761b4cd2ce46a022aadb">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2016-03-25 09:28:08" Creator="Ken" Comments="" ID="f52401da84c1c59eb0f6b0dfdb8a5ccf">
   <Library_General_Settings>
     <Package_File_Name>daq_io_lib_daq_io_LabVIEW_API</Package_File_Name>
-    <Library_Version>1.2.0.7</Library_Version>
+    <Library_Version>1.2.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\daq.io package</Library_Output_Folder>
@@ -40,7 +40,7 @@ Version History</Description>
       <Copyright>Copyright © 2016, daq.io</Copyright>
       <Packager>Peter Adelhardt</Packager>
       <URL>http://www.daq.io</URL>
-      <Release_Notes>V 1.2.0.7 (Mar-24, 2016)
+      <Release_Notes>V 1.2.0.8 (Mar-25, 2016)
 - added Waveform support in "daq.io Write" 
 - added Waveform generation to the "Machine Example"
 - added Example VI to retrieve Time Series data and Waveforms
@@ -528,7 +528,7 @@ Please note: This API is &lt;b&gt;not backwards compatible to V 1.0&lt;/b&gt;. F
         <Path>Time Series Data\daqio_Write.vi</Path>
         <VI_Title>daq.io Write</VI_Title>
       </Items_Data>
-      <GUID>6F46086088D580B22F58B656E86E1EF9</GUID>
+      <GUID>BD22B8704C1C6BE630047F30715C4F08</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -717,7 +717,7 @@ Please note: This API is &lt;b&gt;not backwards compatible to V 1.0&lt;/b&gt;. F
         <Path>_subs\sub_get_list_of_waveforms.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>75A43332FA8FB158001547A96EE726AC</GUID>
+      <GUID>2D83150CB664D3D45FE3F4FED7F1604F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -822,7 +822,7 @@ Please note: This API is &lt;b&gt;not backwards compatible to V 1.0&lt;/b&gt;. F
         <Path>Advanced Functions\daqio_DevTypes_FGV.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>05AADC16523ACAF24957C2C6AAF55301</GUID>
+      <GUID>4C3786D527331F36356EF6F3F9AF681E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
