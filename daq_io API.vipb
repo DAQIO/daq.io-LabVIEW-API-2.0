@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2016-03-24 16:37:00" Creator="Ken" Comments="" ID="df108c373b2b31c300eba21a42c88b18">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2016-03-24 17:12:04" Creator="Ken" Comments="" ID="fa91f77016c0761b4cd2ce46a022aadb">
   <Library_General_Settings>
     <Package_File_Name>daq_io_lib_daq_io_LabVIEW_API</Package_File_Name>
-    <Library_Version>1.2.0.8</Library_Version>
+    <Library_Version>1.2.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\daq.io package</Library_Output_Folder>
@@ -528,7 +528,7 @@ Please note: This API is &lt;b&gt;not backwards compatible to V 1.0&lt;/b&gt;. F
         <Path>Time Series Data\daqio_Write.vi</Path>
         <VI_Title>daq.io Write</VI_Title>
       </Items_Data>
-      <GUID>7BA4AB2C52715D003E9358BE7E3B4417</GUID>
+      <GUID>6F46086088D580B22F58B656E86E1EF9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -717,7 +717,7 @@ Please note: This API is &lt;b&gt;not backwards compatible to V 1.0&lt;/b&gt;. F
         <Path>_subs\sub_get_list_of_waveforms.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A151CE507FCECFA1F0C1FD23CEC6F1A6</GUID>
+      <GUID>75A43332FA8FB158001547A96EE726AC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -822,7 +822,7 @@ Please note: This API is &lt;b&gt;not backwards compatible to V 1.0&lt;/b&gt;. F
         <Path>Advanced Functions\daqio_DevTypes_FGV.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>991A1921326EB16CCACCA2B4217C4C55</GUID>
+      <GUID>05AADC16523ACAF24957C2C6AAF55301</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
