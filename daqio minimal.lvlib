@@ -31,9 +31,6 @@
 		</Item>
 		<Item Name="sub_autocreate_device_and_type_name.vi" Type="VI" URL="../_subs/sub_autocreate_device_and_type_name.vi"/>
 		<Item Name="sub_base64.vi" Type="VI" URL="../_subs/sub_base64.vi"/>
-		<Item Name="sub_check_and_autocreate_channel.vi" Type="VI" URL="../_subs/sub_check_and_autocreate_channel.vi"/>
-		<Item Name="sub_check_and_autocreate_event.vi" Type="VI" URL="../_subs/sub_check_and_autocreate_event.vi"/>
-		<Item Name="sub_check_and_autocreate_tag.vi" Type="VI" URL="../_subs/sub_check_and_autocreate_tag.vi"/>
 		<Item Name="sub_check_connectivity.vi" Type="VI" URL="../_subs/sub_check_connectivity.vi"/>
 		<Item Name="sub_check_logged_in.vi" Type="VI" URL="../_subs/sub_check_logged_in.vi"/>
 		<Item Name="sub_create_buf_file_from_date.vi" Type="VI" URL="../_subs/sub_create_buf_file_from_date.vi"/>
@@ -60,9 +57,11 @@
 		<Item Name="daqio-Buffer-Parameters.ctl" Type="VI" URL="../_typedefs/daqio-Buffer-Parameters.ctl"/>
 		<Item Name="daqio-Channel-Type-POST-return.ctl" Type="VI" URL="../_typedefs/daqio-Channel-Type-POST-return.ctl"/>
 		<Item Name="daqio-Channel-Type.ctl" Type="VI" URL="../_typedefs/daqio-Channel-Type.ctl"/>
+		<Item Name="daqio-Channels.ctl" Type="VI" URL="../_typedefs/daqio-Channels.ctl"/>
 		<Item Name="daqio-Credentials-FGV.ctl" Type="VI" URL="../_typedefs/daqio-Credentials-FGV.ctl"/>
 		<Item Name="daqio-Credentials.ctl" Type="VI" URL="../_typedefs/daqio-Credentials.ctl"/>
 		<Item Name="daqio-daily-rollups-JSON.ctl" Type="VI" URL="../_typedefs/daqio-daily-rollups-JSON.ctl"/>
+		<Item Name="daqio-Device-Min.ctl" Type="VI" URL="../_typedefs/daqio-Device-Min.ctl"/>
 		<Item Name="daqio-Device-minimum.ctl" Type="VI" URL="../_typedefs/daqio-Device-minimum.ctl"/>
 		<Item Name="daqio-Device-Specifier.ctl" Type="VI" URL="../_typedefs/daqio-Device-Specifier.ctl"/>
 		<Item Name="daqio-Device-Type-Info-return.ctl" Type="VI" URL="../_typedefs/daqio-Device-Type-Info-return.ctl"/>
@@ -74,6 +73,7 @@
 		<Item Name="daqio-Event-Def.ctl" Type="VI" URL="../_typedefs/daqio-Event-Def.ctl"/>
 		<Item Name="daqio-Event-Type-Min-Def.ctl" Type="VI" URL="../_typedefs/daqio-Event-Type-Min-Def.ctl"/>
 		<Item Name="daqio-Event-Type.ctl" Type="VI" URL="../_typedefs/daqio-Event-Type.ctl"/>
+		<Item Name="daqio-Events-Def.ctl" Type="VI" URL="../_typedefs/daqio-Events-Def.ctl"/>
 		<Item Name="daqio-File-Post.ctl" Type="VI" URL="../_typedefs/daqio-File-Post.ctl"/>
 		<Item Name="daqio-File.ctl" Type="VI" URL="../_typedefs/daqio-File.ctl"/>
 		<Item Name="daqio-hourly-rollups-JSON.ctl" Type="VI" URL="../_typedefs/daqio-hourly-rollups-JSON.ctl"/>
@@ -107,16 +107,11 @@
 		<Item Name="daqio_Refresh_Local_Device.vi" Type="VI" URL="../Advanced Functions/daqio_Refresh_Local_Device.vi"/>
 	</Item>
 	<Item Name="API Calls" Type="Folder">
-		<Item Name="daqio_Create_Channel_Types.vi" Type="VI" URL="../API Calls/daqio_Create_Channel_Types.vi"/>
 		<Item Name="daqio_Create_Device.vi" Type="VI" URL="../API Calls/daqio_Create_Device.vi"/>
-		<Item Name="daqio_Create_Device_Type.vi" Type="VI" URL="../API Calls/daqio_Create_Device_Type.vi"/>
-		<Item Name="daqio_Create_Event_Type.vi" Type="VI" URL="../API Calls/daqio_Create_Event_Type.vi"/>
 		<Item Name="daqio_Create_Tag_Type.vi" Type="VI" URL="../API Calls/daqio_Create_Tag_Type.vi"/>
-		<Item Name="daqio_Get_All_Channel_Types.vi" Type="VI" URL="../API Calls/daqio_Get_All_Channel_Types.vi"/>
-		<Item Name="daqio_Get_All_Device_Types.vi" Type="VI" URL="../API Calls/daqio_Get_All_Device_Types.vi"/>
+		<Item Name="daqio_Get_All_Device_Channels.vi" Type="VI" URL="../API Calls/daqio_Get_All_Device_Channels.vi"/>
+		<Item Name="daqio_Get_All_Devices.vi" Type="VI" URL="../API Calls/daqio_Get_All_Devices.vi"/>
 		<Item Name="daqio_Get_All_Event_Types.vi" Type="VI" URL="../API Calls/daqio_Get_All_Event_Types.vi"/>
-		<Item Name="daqio_Get_Specific_Device_Type.vi" Type="VI" URL="../API Calls/daqio_Get_Specific_Device_Type.vi"/>
-		<Item Name="daqio_Put_Device_Type.vi" Type="VI" URL="../API Calls/daqio_Put_Device_Type.vi"/>
 	</Item>
 	<Item Name="EM Demo" Type="Folder">
 		<Item Name="EM Machine Example.vi" Type="VI" URL="../EM Demo/EM Machine Example.vi"/>
