@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2016-03-29 11:25:29" Creator="Ken" Comments="" ID="f8932a8eaa28d9cd420f92b0b895804d">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2016-04-14 13:54:06" Creator="Ken" Comments="" ID="c14cceacdfc03e0b96ced59569e535d8">
   <Library_General_Settings>
     <Package_File_Name>daq_io_lib_daq_io_LabVIEW_API</Package_File_Name>
-    <Library_Version>1.2.0.11</Library_Version>
+    <Library_Version>1.2.0.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\daq.io package</Library_Output_Folder>
@@ -40,7 +40,8 @@ Version History</Description>
       <Copyright>Copyright © 2016, daq.io</Copyright>
       <Packager>Peter Adelhardt</Packager>
       <URL>http://www.daq.io</URL>
-      <Release_Notes>V 1.2.0.10 (Mar-29, 2016)
+      <Release_Notes>V 1.2.0.11 (Apr-14, 2016)
+- fixed for other system locale
 - fixed auto devtype generation
 - exposed Waveform label 
 
@@ -532,7 +533,7 @@ Please note: This API is &lt;b&gt;not backwards compatible to V 1.0&lt;/b&gt;. F
         <Path>Time Series Data\daqio_Write.vi</Path>
         <VI_Title>daq.io Write</VI_Title>
       </Items_Data>
-      <GUID>5430FEB562C8AE25ABF83FA28D5DE6E0</GUID>
+      <GUID>523D4068BC2EAF8D8A97DC434B91CAE8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -721,7 +722,7 @@ Please note: This API is &lt;b&gt;not backwards compatible to V 1.0&lt;/b&gt;. F
         <Path>_subs\sub_get_list_of_waveforms.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F22D56F76780762D4E20B21C893B8162</GUID>
+      <GUID>B9DE585F0A5CE00AB28FABCAC3CF5498</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -826,7 +827,7 @@ Please note: This API is &lt;b&gt;not backwards compatible to V 1.0&lt;/b&gt;. F
         <Path>Advanced Functions\daqio_DevTypes_FGV.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>209AD831866074C2B198D677CB051E11</GUID>
+      <GUID>96626AD94AC61C030D133816FC5381E1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
