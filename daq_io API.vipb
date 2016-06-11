@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2016-05-12 17:47:11" Creator="Ken" Comments="" ID="b0d1d30b20125bc32cd98043f125d70e">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2016-06-11 16:44:20" Creator="Ken" Comments="" ID="d2a30b7da77461d6e1c61aa61327327d">
   <Library_General_Settings>
     <Package_File_Name>daq_io_lib_daq_io_LabVIEW_API</Package_File_Name>
-    <Library_Version>1.3.0.3</Library_Version>
+    <Library_Version>2.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\daq.io package</Library_Output_Folder>
@@ -40,7 +40,7 @@ Version History</Description>
       <Copyright>Copyright © 2016, daq.io</Copyright>
       <Packager>Peter Adelhardt</Packager>
       <URL>http://www.daq.io</URL>
-      <Release_Notes>V 1.3.0.2 (May-12, 2016)
+      <Release_Notes>V 2.0.0.4 (Jun-11, 2016)
 
 - upgraded all calls to V2 of the daq.io API. 
 - removed device types
@@ -530,7 +530,7 @@ Please note: This API is &lt;b&gt;not backwards compatible to V 1.0&lt;/b&gt;. F
         <Path>Time Series Data\daqio_Write.vi</Path>
         <VI_Title>daq.io Write</VI_Title>
       </Items_Data>
-      <GUID>5E8FF2C95EC334ACF27DD95F694659D7</GUID>
+      <GUID>61A2EF929D040B4A95508E5ABF3EC4B4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -607,7 +607,7 @@ Please note: This API is &lt;b&gt;not backwards compatible to V 1.0&lt;/b&gt;. F
         <Path>API Calls\daqio_Get_All_Devices_Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>150581FB21117286D864A2F676FC4DE4</GUID>
+      <GUID>56B9899C8BB838C4EF13BECC5CD6AD69</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -698,7 +698,7 @@ Please note: This API is &lt;b&gt;not backwards compatible to V 1.0&lt;/b&gt;. F
         <Path>Advanced Functions\daqio_Re-Connect_Device.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>85ED3667F55FCE0105EB93F1EDEFD68D</GUID>
+      <GUID>0DEB398460C8CDDDB13D283EA5B8252F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
