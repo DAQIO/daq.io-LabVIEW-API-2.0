@@ -3,6 +3,7 @@
 <nicomment>
 Error descriptions as provided with the daq.io LabVIEW API 1.1
 
+
 <nifamily familyname="daq.io Error" displayname="daq.io Error">
 </nifamily>
 </nicomment>
@@ -95,5 +96,8 @@ Error retrieving Waveforms from daq.io. Please make sure Waveforms are enabled a
 </nierror>
 <nierror code="403409">
 Error retrieving Waveform data from daq.io. Please make sure the waveforms are stored correctly.
+</nierror>
+<nierror code="403410">
+Error retrieving tags for your specific device. Try getting the device information.
 </nierror>
 </nidocument>

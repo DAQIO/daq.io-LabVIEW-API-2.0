@@ -42,7 +42,6 @@
 		<Item Name="sub_Filter_Waveforms_by_Channel_and_Time.vi" Type="VI" URL="../_subs/sub_Filter_Waveforms_by_Channel_and_Time.vi"/>
 		<Item Name="sub_get_list_of_waveforms.vi" Type="VI" URL="../_subs/sub_get_list_of_waveforms.vi"/>
 		<Item Name="sub_list_all_channels_for_device.vi" Type="VI" URL="../_subs/sub_list_all_channels_for_device.vi"/>
-		<Item Name="sub_list_all_devices_for_user_flat_output.vi" Type="VI" URL="../_subs/sub_list_all_devices_for_user_flat_output.vi"/>
 		<Item Name="sub_make_safe_name.vi" Type="VI" URL="../_subs/sub_make_safe_name.vi"/>
 		<Item Name="sub_post_and_clear_error.vi" Type="VI" URL="../_subs/sub_post_and_clear_error.vi"/>
 		<Item Name="sub_reconnect_attempt.vi" Type="VI" URL="../_subs/sub_reconnect_attempt.vi"/>
@@ -56,24 +55,22 @@
 		<Item Name="daqio-Buffer-Commands.ctl" Type="VI" URL="../_typedefs/daqio-Buffer-Commands.ctl"/>
 		<Item Name="daqio-Buffer-Parameters.ctl" Type="VI" URL="../_typedefs/daqio-Buffer-Parameters.ctl"/>
 		<Item Name="daqio-Channel-Type-POST-return.ctl" Type="VI" URL="../_typedefs/daqio-Channel-Type-POST-return.ctl"/>
-		<Item Name="daqio-Channel-Type.ctl" Type="VI" URL="../_typedefs/daqio-Channel-Type.ctl"/>
 		<Item Name="daqio-Channels.ctl" Type="VI" URL="../_typedefs/daqio-Channels.ctl"/>
 		<Item Name="daqio-Credentials-FGV.ctl" Type="VI" URL="../_typedefs/daqio-Credentials-FGV.ctl"/>
 		<Item Name="daqio-Credentials.ctl" Type="VI" URL="../_typedefs/daqio-Credentials.ctl"/>
 		<Item Name="daqio-daily-rollups-JSON.ctl" Type="VI" URL="../_typedefs/daqio-daily-rollups-JSON.ctl"/>
-		<Item Name="daqio-Device-Min.ctl" Type="VI" URL="../_typedefs/daqio-Device-Min.ctl"/>
+		<Item Name="daqio-Device-Channels.ctl" Type="VI" URL="../_typedefs/daqio-Device-Channels.ctl"/>
+		<Item Name="daqio-Device-Just-Dashboards.ctl" Type="VI" URL="../_typedefs/daqio-Device-Just-Dashboards.ctl"/>
+		<Item Name="daqio-Device-Just-Tags.ctl" Type="VI" URL="../_typedefs/daqio-Device-Just-Tags.ctl"/>
 		<Item Name="daqio-Device-minimum.ctl" Type="VI" URL="../_typedefs/daqio-Device-minimum.ctl"/>
+		<Item Name="daqio-Device-post-files.ctl" Type="VI" URL="../_typedefs/daqio-Device-post-files.ctl"/>
+		<Item Name="daqio-Device-Put-Dashboards.ctl" Type="VI" URL="../_typedefs/daqio-Device-Put-Dashboards.ctl"/>
 		<Item Name="daqio-Device-Specifier.ctl" Type="VI" URL="../_typedefs/daqio-Device-Specifier.ctl"/>
+		<Item Name="daqio-Device-Tags.ctl" Type="VI" URL="../_typedefs/daqio-Device-Tags.ctl"/>
 		<Item Name="daqio-Device-Type-Info-return.ctl" Type="VI" URL="../_typedefs/daqio-Device-Type-Info-return.ctl"/>
 		<Item Name="daqio-Device.ctl" Type="VI" URL="../_typedefs/daqio-Device.ctl"/>
-		<Item Name="daqio-Device_just_Dashboard_ID.ctl" Type="VI" URL="../_typedefs/daqio-Device_just_Dashboard_ID.ctl"/>
-		<Item Name="daqio-Device_w_Dashboard.ctl" Type="VI" URL="../_typedefs/daqio-Device_w_Dashboard.ctl"/>
-		<Item Name="daqio-Device_w_Dashboard_wo_ID.ctl" Type="VI" URL="../_typedefs/daqio-Device_w_Dashboard_wo_ID.ctl"/>
 		<Item Name="daqio-Event-Def-Min.ctl" Type="VI" URL="../_typedefs/daqio-Event-Def-Min.ctl"/>
-		<Item Name="daqio-Event-Def.ctl" Type="VI" URL="../_typedefs/daqio-Event-Def.ctl"/>
-		<Item Name="daqio-Event-Type-Min-Def.ctl" Type="VI" URL="../_typedefs/daqio-Event-Type-Min-Def.ctl"/>
-		<Item Name="daqio-Event-Type.ctl" Type="VI" URL="../_typedefs/daqio-Event-Type.ctl"/>
-		<Item Name="daqio-Events-Def.ctl" Type="VI" URL="../_typedefs/daqio-Events-Def.ctl"/>
+		<Item Name="daqio-Event.ctl" Type="VI" URL="../_typedefs/daqio-Event.ctl"/>
 		<Item Name="daqio-File-Post.ctl" Type="VI" URL="../_typedefs/daqio-File-Post.ctl"/>
 		<Item Name="daqio-File.ctl" Type="VI" URL="../_typedefs/daqio-File.ctl"/>
 		<Item Name="daqio-hourly-rollups-JSON.ctl" Type="VI" URL="../_typedefs/daqio-hourly-rollups-JSON.ctl"/>
@@ -102,16 +99,14 @@
 		<Item Name="daqio_Connect_User.vi" Type="VI" URL="../Advanced Functions/daqio_Connect_User.vi"/>
 		<Item Name="daqio_Connection_FGV.vi" Type="VI" URL="../Advanced Functions/daqio_Connection_FGV.vi"/>
 		<Item Name="daqio_Data_Buffer_FGV.vi" Type="VI" URL="../Advanced Functions/daqio_Data_Buffer_FGV.vi"/>
-		<Item Name="daqio_DevTypes_FGV.vi" Type="VI" URL="../Advanced Functions/daqio_DevTypes_FGV.vi"/>
 		<Item Name="daqio_Re-Connect_Device.vi" Type="VI" URL="../Advanced Functions/daqio_Re-Connect_Device.vi"/>
-		<Item Name="daqio_Refresh_Local_Device.vi" Type="VI" URL="../Advanced Functions/daqio_Refresh_Local_Device.vi"/>
 	</Item>
 	<Item Name="API Calls" Type="Folder">
 		<Item Name="daqio_Create_Device.vi" Type="VI" URL="../API Calls/daqio_Create_Device.vi"/>
-		<Item Name="daqio_Create_Tag_Type.vi" Type="VI" URL="../API Calls/daqio_Create_Tag_Type.vi"/>
 		<Item Name="daqio_Get_All_Device_Channels.vi" Type="VI" URL="../API Calls/daqio_Get_All_Device_Channels.vi"/>
+		<Item Name="daqio_Get_All_Device_Keys.vi" Type="VI" URL="../API Calls/daqio_Get_All_Device_Keys.vi"/>
 		<Item Name="daqio_Get_All_Devices.vi" Type="VI" URL="../API Calls/daqio_Get_All_Devices.vi"/>
-		<Item Name="daqio_Get_All_Event_Types.vi" Type="VI" URL="../API Calls/daqio_Get_All_Event_Types.vi"/>
+		<Item Name="daqio_Get_All_Devices_Events.vi" Type="VI" URL="../API Calls/daqio_Get_All_Devices_Events.vi"/>
 	</Item>
 	<Item Name="EM Demo" Type="Folder">
 		<Item Name="EM Machine Example.vi" Type="VI" URL="../EM Demo/EM Machine Example.vi"/>

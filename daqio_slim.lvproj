@@ -72,10 +72,10 @@
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="daqio-Device-Dashboards.ctl" Type="VI" URL="../_typedefs/daqio-Device-Dashboards.ctl"/>
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="daqio_Get_All_Event_Types.vi" Type="VI" URL="../API Calls/daqio_Get_All_Event_Types.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="daq.io Generate Demo Values" Type="EXE">
