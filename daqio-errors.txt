@@ -100,4 +100,7 @@ Error retrieving Waveform data from daq.io. Please make sure the waveforms are s
 <nierror code="403410">
 Error retrieving tags for your specific device. Try getting the device information.
 </nierror>
+<nierror code="403411">
+Device uses a different Token. Change Token information online to continue with a different Token.
+</nierror>
 </nidocument>
