@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2016-12-19 12:19:42" Creator="Ken" Comments="" ID="e490621ab7c2213a3e477248fa83461a">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2017-02-21 14:42:35" Creator="Ken" Comments="" ID="b069862c592b081a760327f4f9fb599e">
   <Library_General_Settings>
     <Package_File_Name>daq_io_lib_daq_io_LabVIEW_API</Package_File_Name>
-    <Library_Version>2.0.2.5</Library_Version>
+    <Library_Version>2.0.2.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\daq.io package</Library_Output_Folder>
@@ -40,8 +40,10 @@ Version History</Description>
       <Copyright>Copyright © 2016, daq.io</Copyright>
       <Packager>Peter Adelhardt</Packager>
       <URL>http://www.daq.io</URL>
-      <Release_Notes>V 2.0.2.4 (Dec-19, 2016)
+      <Release_Notes>V 2.0.2.9 (Feb-21, 2017)
 
+- reformat NaNs in waveforms to support charting on daq.io
+- added InPlace Structure to HTTP commands for memory conservation
 - global setting to toggle buffer use
 - improved buffer reliability and recovery in error states</Release_Notes>
     </Description>
@@ -534,7 +536,7 @@ Version History</Description>
         <Path>Time Series Data\daqio_Write.vi</Path>
         <VI_Title>daq.io Write</VI_Title>
       </Items_Data>
-      <GUID>119880B10CB6818F1AC13F324EBFDC70</GUID>
+      <GUID>D7E084FCE58679A20342539E5771C9CF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -611,7 +613,7 @@ Version History</Description>
         <Path>API Calls\daqio_Get_All_Devices_Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E5FBA9CF924EBBCA7FC1818969D9AC03</GUID>
+      <GUID>E6C31DD3461B85CF077E5F1EB266A4C1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -702,7 +704,7 @@ Version History</Description>
         <Path>Advanced Functions\daqio_Re-Connect_Device.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>334AD48CC93EA647F36B0E129B2D2521</GUID>
+      <GUID>02AEDB97FC45A8495E093EA0201974D2</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
