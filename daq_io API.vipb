@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2017-02-23 12:23:55" Creator="Ken" Comments="" ID="3bc2bd3f3480ad0cc56676b31b999f99">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2017-02-24 12:10:25" Creator="Ken" Comments="" ID="a6fda60c8c2541f742c36a61452bf702">
   <Library_General_Settings>
     <Package_File_Name>daq_io_lib_daq_io_LabVIEW_API</Package_File_Name>
-    <Library_Version>2.0.2.11</Library_Version>
+    <Library_Version>2.0.2.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\daq.io package</Library_Output_Folder>
@@ -40,7 +40,7 @@ Version History</Description>
       <Copyright>Copyright © 2016, daq.io</Copyright>
       <Packager>Peter Adelhardt</Packager>
       <URL>http://www.daq.io</URL>
-      <Release_Notes>V 2.0.2.10 (Feb-23, 2017)
+      <Release_Notes>V 2.0.2.12 (Feb-24, 2017)
 
 - added "replace file" functionality for webcams etc.
 - reformat NaNs in waveforms to support charting on daq.io
@@ -551,7 +551,7 @@ Version History</Description>
         <Path>Files\daqio_Replace_File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1E894AEE727B01ED6CC1D1B774FBA049</GUID>
+      <GUID>AFCCACC77676E1808A01EF0F83F46E79</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -628,7 +628,7 @@ Version History</Description>
         <Path>API Calls\daqio_Get_All_Devices_Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F9C918248F1393B2023D80711547F821</GUID>
+      <GUID>35B93767BAFD0B966814A33B42A5A57C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -719,7 +719,7 @@ Version History</Description>
         <Path>Advanced Functions\daqio_Re-Connect_Device.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C1436E7F98F3A8FA0DEFF41E921F76D7</GUID>
+      <GUID>F2446D70589B74E34A2B2A2D16DAC45B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

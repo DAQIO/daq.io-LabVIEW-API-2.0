@@ -91,6 +91,7 @@
 		<Item Name="download-button.ctl" Type="VI" URL="../_typedefs/download-button.ctl"/>
 		<Item Name="exmpl-states.ctl" Type="VI" URL="../_typedefs/exmpl-states.ctl"/>
 		<Item Name="exmpl_overlay_mask.ctl" Type="VI" URL="../_typedefs/exmpl_overlay_mask.ctl"/>
+		<Item Name="replace-button.ctl" Type="VI" URL="../_typedefs/replace-button.ctl"/>
 		<Item Name="trigger-button.ctl" Type="VI" URL="../_typedefs/trigger-button.ctl"/>
 		<Item Name="update-button.ctl" Type="VI" URL="../_typedefs/update-button.ctl"/>
 		<Item Name="waveform-button.ctl" Type="VI" URL="../_typedefs/waveform-button.ctl"/>
@@ -107,9 +108,6 @@
 		<Item Name="daqio_Get_All_Device_Keys.vi" Type="VI" URL="../API Calls/daqio_Get_All_Device_Keys.vi"/>
 		<Item Name="daqio_Get_All_Devices.vi" Type="VI" URL="../API Calls/daqio_Get_All_Devices.vi"/>
 		<Item Name="daqio_Get_All_Devices_Events.vi" Type="VI" URL="../API Calls/daqio_Get_All_Devices_Events.vi"/>
-	</Item>
-	<Item Name="EM Demo" Type="Folder">
-		<Item Name="EM Machine Example.vi" Type="VI" URL="../EM Demo/EM Machine Example.vi"/>
 	</Item>
 	<Item Name="Events" Type="Folder">
 		<Item Name="daqio_Fire_Event.vi" Type="VI" URL="../Events/daqio_Fire_Event.vi"/>
@@ -133,6 +131,7 @@
 		<Item Name="daqio_Delete_File.vi" Type="VI" URL="../Files/daqio_Delete_File.vi"/>
 		<Item Name="daqio_Download_File.vi" Type="VI" URL="../Files/daqio_Download_File.vi"/>
 		<Item Name="daqio_Get_All_Files.vi" Type="VI" URL="../Files/daqio_Get_All_Files.vi"/>
+		<Item Name="daqio_Replace_File.vi" Type="VI" URL="../Files/daqio_Replace_File.vi"/>
 		<Item Name="daqio_Tie_File_to_Device.vi" Type="VI" URL="../Files/daqio_Tie_File_to_Device.vi"/>
 		<Item Name="daqio_Upload_File.vi" Type="VI" URL="../Files/daqio_Upload_File.vi"/>
 	</Item>
