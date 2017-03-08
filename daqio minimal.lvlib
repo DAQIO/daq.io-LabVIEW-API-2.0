@@ -16,6 +16,8 @@
 		<Item Name="EULA.txt" Type="Document" URL="../EULA.txt"/>
 	</Item>
 	<Item Name="_subs" Type="Folder">
+		<Item Name="daqio_get_dashboard.vi" Type="VI" URL="../_subs/daqio_get_dashboard.vi"/>
+		<Item Name="daqio_replace_dashboard.vi" Type="VI" URL="../_subs/daqio_replace_dashboard.vi"/>
 		<Item Name="daqio_Write_Multiple.vi" Type="VI" URL="../_subs/daqio_Write_Multiple.vi"/>
 		<Item Name="daqio_Write_Multiple_single_Timestamp.vi" Type="VI" URL="../_subs/daqio_Write_Multiple_single_Timestamp.vi"/>
 		<Item Name="daqio_Write_Single.vi" Type="VI" URL="../_subs/daqio_Write_Single.vi"/>

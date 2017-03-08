@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2017-02-24 12:10:25" Creator="Ken" Comments="" ID="a6fda60c8c2541f742c36a61452bf702">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2017-03-08 13:38:12" Creator="Ken" Comments="" ID="ca16de43dd81c57da56c9474edd52dc6">
   <Library_General_Settings>
     <Package_File_Name>daq_io_lib_daq_io_LabVIEW_API</Package_File_Name>
-    <Library_Version>2.0.2.12</Library_Version>
+    <Library_Version>2.0.2.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\daq.io package</Library_Output_Folder>
@@ -40,13 +40,10 @@ Version History</Description>
       <Copyright>Copyright © 2016, daq.io</Copyright>
       <Packager>Peter Adelhardt</Packager>
       <URL>http://www.daq.io</URL>
-      <Release_Notes>V 2.0.2.12 (Feb-24, 2017)
+      <Release_Notes>V 2.0.2.14 (Mar-08, 2017)
 
-- added "replace file" functionality for webcams etc.
-- reformat NaNs in waveforms to support charting on daq.io
-- added InPlace Structure to HTTP commands for memory conservation
-- global setting to toggle buffer use
-- improved buffer reliability and recovery in error states</Release_Notes>
+- improved file upload stability with Tokens
+- user-selectable buffer path on "Connect Device" (e.g. USB drives)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -551,7 +548,7 @@ Version History</Description>
         <Path>Files\daqio_Replace_File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AFCCACC77676E1808A01EF0F83F46E79</GUID>
+      <GUID>96062C246E513D700BE93FDB62C6BD2F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -628,7 +625,7 @@ Version History</Description>
         <Path>API Calls\daqio_Get_All_Devices_Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>35B93767BAFD0B966814A33B42A5A57C</GUID>
+      <GUID>98E27FAA0FFFB3B2937C60E73A0ABBAA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -719,7 +716,7 @@ Version History</Description>
         <Path>Advanced Functions\daqio_Re-Connect_Device.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F2446D70589B74E34A2B2A2D16DAC45B</GUID>
+      <GUID>DEDDCD05439F711C9FA09D43A866E1A6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
