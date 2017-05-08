@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2017-03-08 13:38:12" Creator="Ken" Comments="" ID="ca16de43dd81c57da56c9474edd52dc6">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-02-08 14:55:48" Modified_Date="2017-05-08 16:23:45" Creator="Ken" Comments="" ID="03d81cc01ffb4a7b65c428817b1712fa">
   <Library_General_Settings>
     <Package_File_Name>daq_io_lib_daq_io_LabVIEW_API</Package_File_Name>
-    <Library_Version>2.0.2.15</Library_Version>
+    <Library_Version>2.0.3.24</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\daq.io package</Library_Output_Folder>
@@ -40,8 +40,10 @@ Version History</Description>
       <Copyright>Copyright © 2016, daq.io</Copyright>
       <Packager>Peter Adelhardt</Packager>
       <URL>http://www.daq.io</URL>
-      <Release_Notes>V 2.0.2.14 (Mar-08, 2017)
+      <Release_Notes>V 2.0.3.23 (May-8, 2017)
 
+- added compact time series upload with channel indexes only
+- simplified buffer upload to avoid orphaned buf files
 - improved file upload stability with Tokens
 - user-selectable buffer path on "Connect Device" (e.g. USB drives)</Release_Notes>
     </Description>
@@ -548,7 +550,7 @@ Version History</Description>
         <Path>Files\daqio_Replace_File.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>96062C246E513D700BE93FDB62C6BD2F</GUID>
+      <GUID>8141C0652081FED09DFF12EB8F2E946E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -625,7 +627,7 @@ Version History</Description>
         <Path>API Calls\daqio_Get_All_Devices_Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>98E27FAA0FFFB3B2937C60E73A0ABBAA</GUID>
+      <GUID>60B9F06EB0F70F5D152E7BFD1FF1F675</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -716,7 +718,7 @@ Version History</Description>
         <Path>Advanced Functions\daqio_Re-Connect_Device.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DEDDCD05439F711C9FA09D43A866E1A6</GUID>
+      <GUID>F982F66C0682FDE598526510C0213FEC</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
