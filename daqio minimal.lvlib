@@ -23,6 +23,7 @@
 		<Item Name="daqio_Write_Multiple_single_Timestamp.vi" Type="VI" URL="../_subs/daqio_Write_Multiple_single_Timestamp.vi"/>
 		<Item Name="daqio_Write_Single.vi" Type="VI" URL="../_subs/daqio_Write_Single.vi"/>
 		<Item Name="daqio_Write_Waveform.vi" Type="VI" URL="../_subs/daqio_Write_Waveform.vi"/>
+		<Item Name="daqio_Compact_Write_Multiple_single_Timestamp.vi" Type="VI" URL="../_subs/daqio_Compact_Write_Multiple_single_Timestamp.vi"/>
 		<Item Name="RCAtt" Type="Variable">
 			<Property Name="featurePacks" Type="Str">Global</Property>
 			<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -149,7 +150,6 @@
 		<Item Name="daqio_Write.vi" Type="VI" URL="../Time Series Data/daqio_Write.vi"/>
 	</Item>
 	<Item Name="daqio_Close.vi" Type="VI" URL="../daqio_Close.vi"/>
-	<Item Name="daqio_Compact_Write_Multiple_single_Timestamp.vi" Type="VI" URL="../_subs/daqio_Compact_Write_Multiple_single_Timestamp.vi"/>
 	<Item Name="daqio_Connect_Device.vi" Type="VI" URL="../daqio_Connect_Device.vi"/>
 	<Item Name="daqio_Switch_to_Device.vi" Type="VI" URL="../daqio_Switch_to_Device.vi"/>
 </Library>
